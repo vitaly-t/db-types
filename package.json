@@ -1,6 +1,6 @@
 {
   "name": "db-types",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Universal database type mapper",
   "main": "lib/index.js",
   "scripts": {

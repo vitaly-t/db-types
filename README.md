@@ -6,7 +6,6 @@
 
 This is currently a pilot project, to map all data types into TypeScript (for all databases).
 
-So any module could ask: `Here's my database type, what should it be in TypeScript?`
+So one can ask for any database server: `Here's my data type, what should it be in TypeScript?`
 
-See [Documentation](http://vitaly-t.github.io/db-types/index.html).
-
+See [Generated Documentation](http://vitaly-t.github.io/db-types/index.html).
