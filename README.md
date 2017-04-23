@@ -1,2 +1,4 @@
 # db-types
-Universal database types mapper
+
+This is currently a pilot project, to attempt mapping types of all existing databases into TypeScript, etc.
+
