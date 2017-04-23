@@ -13,14 +13,50 @@
 <body>
 
 <nav>
-    <?js= this.nav ?>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Database.html">Database</a></li><li><a href="DataType.html">DataType</a></li></ul>
     <div class="home-link">
         <a href="https://github.com/vitaly-t/db-types">&lt;&lt; GitHub</a>
     </div>
 </nav>
 
 <div id="main">
-    <?js= content ?>
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>'use strict';
+
+/**
+ * @class DataType
+ * @description
+ * Represents a single data type.
+ *
+ * @param {Object} dt
+ * Database Data Type.
+ *
+ * @returns {DataType}
+ */
+class DataType {
+
+    constructor(dt) {
+        if (!dt || typeof dt !== 'object') {
+            throw new TypeError('Invalid database type specified.');
+        }
+    }
+}
+
+module.exports = DataType;
+
+</code></pre>
+        </article>
+    </section>
+
+
+
+
 </div>
 
 <br class="clear">
