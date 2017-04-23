@@ -1,6 +1,6 @@
 {
   "name": "db-types",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Universal database type mapper",
   "main": "lib/index.js",
   "scripts": {
@@ -38,8 +38,8 @@
     "npm": ">=1.4"
   },
   "devDependencies": {
-    "coveralls": "2.11",
     "istanbul": "0.4",
+    "coveralls": "2.11",
     "jasmine-node": "1.x",
     "jsdoc": "3.x",
     "eslint": "3.x"
