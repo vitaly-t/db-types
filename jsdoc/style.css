@@ -21,13 +21,12 @@ h4.name {
 
 section {
     border-bottom: none;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 div#main {
-    margin-left: 260px;
+    margin-left: 160px;
     float: none;
-    /*    max-width: 1650px;*/
 }
 
 code {
@@ -40,8 +39,8 @@ code span {
 }
 
 nav {
-    background-color: #404040;
-    padding: 10px 20px 20px 20px;
+    background-color: SteelBlue;
+    padding: 10px 60px 20px 20px;
     width: auto;
     top: 0;
     bottom: 0;
@@ -62,7 +61,7 @@ nav div.home-link a:visited {
 
 nav ul li a,
 nav ul li a:visited {
-    color: LightYellow;
+    color: White;
     font-size: 17px;
 }
 
