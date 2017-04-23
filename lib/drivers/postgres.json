@@ -11,9 +11,24 @@
     {
       "id": 123,
       "name": "text",
+      "description": "a text field",
+      "url": "",
+      "storage-size": 123,
       "size": 123,
       "min-size": 0,
       "max-size": 1
+    },
+    {
+      "id": 123,
+      "name": "smallint",
+      "description": "small-range integer",
+      "url": "https://www.postgresql.org/docs/9.6/static/datatype-numeric.html",
+      "numeric": true,
+      "range": {
+        "min": "-32768",
+        "max": "32767"
+      },
+      "storage-size": 2
     }
   ]
 }

@@ -1,1 +1,12 @@
-[]
+{
+  "config": {
+    "server": "MySQL",
+    "version": {
+      "min": "?",
+      "max": "?"
+    },
+    "case-sensitive": false
+  },
+  "types": [
+  ]
+}

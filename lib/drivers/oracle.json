@@ -1,1 +1,12 @@
-[]
+{
+  "config": {
+    "server": "Oracle",
+    "version": {
+      "min": "?",
+      "max": "?"
+    },
+    "case-sensitive": false
+  },
+  "types": [
+  ]
+}

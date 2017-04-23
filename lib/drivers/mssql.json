@@ -1,1 +1,12 @@
-[]
+{
+  "config": {
+    "server": "MS-SQL",
+    "version": {
+      "min": "?",
+      "max": "?"
+    },
+    "case-sensitive": false
+  },
+  "types": [
+  ]
+}
