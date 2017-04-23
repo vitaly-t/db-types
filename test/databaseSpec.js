@@ -21,4 +21,8 @@ describe("Database", function () {
         }).toThrow(error);
     });
 
+    it("must find types", function () {
+        var db = new lib.Database({});
+        db.find({id: 123, name: 'hello'});
+    });
 });
